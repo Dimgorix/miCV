@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <tittle>Formulario</tittle>
+    </head>
+
+    <body>
+        <h1>Formulario</h1>
+
+        <form>
+            <label>Correo</label>
+            <input type "email" id"E-mail" name"correo" multiple/>
+            <br>
+            <label>Buscar</label>
+            <input type="search" name="buscar">
+            <label>Telefono</label>
+            <input type="tel" id="tel" name="tel" />
+            <label>Url</label>
+            <input type="url" id="url" name="url" />
+            <label>Edad</label>
+            <input type="number" name="age" id="age" min="1" max="100" step="2" />
+
+
+        </form>
+
+        <form>
+            <label for="price">Elige el maximo deseado: </label>
+            <input
+              type="range"
+              name="price"
+              id="price"
+              min="50000"
+              max="500000"
+              step="100"
+              value="250000" />
+            <output class="price-output" for="price"></output>
+
+        </form>
+        <br>
+        <form>
+            <p>
+              <label for="search">search: </label>
+              <input id="search" name="search" type="search" />
+            </p>
+            <p>
+              <label for="text">text: </label>
+              <input id="text" name="text" type="text" />
+            </p>
+            <p>
+              <label for="date">date: </label>
+              <input id="date" name="date" type="datetime-local" />
+            </p>
+            <p>
+              <label for="radio">radio: </label>
+              <input id="radio" name="radio" type="radio" />
+            </p>
+            <p>
+              <label for="checkbox">checkbox: </label>
+              <input id="checkbox" name="checkbox" type="checkbox" />
+            </p>
+            <p><input type="submit" value="submit" /></p>
+            <p><input type="button" value="button" /></p><br>
+
+           
+              <label for="avatar">Selecciona la imagen:</label>
+
+                <input type="file"
+                    id="avatar" name="avatar"
+                    accept="image/png, image/jpeg">
+          </form>
+
+          <hr>
+
+          <form class="" action="mailto:chechuy19@gmail.com " method="post">
+            <label>Tu nombre:</label>
+            <input type="text" name="" value=""><br>
+            <label>Email:</label>
+            <input type="email" name="" value?""><br>
+            <label>Mensaje</label><br>
+            <textarea name="name" rows="10" cols="30"></textarea><br>
+            <input type="submit" name="enviar">
+
+          </form>
+
+
+
+    </body>
+
+    
+
+
+
+</html>
